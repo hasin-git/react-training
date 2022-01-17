@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 //import App from "./App";
-//import { CounterComponent } from './CounterComponent';
-import Product from './Product/Product';
+import { CounterComponent } from './CounterComponent';
 
-ReactDOM.render(<Product />, document.getElementById('root'));
+ReactDOM.render(<CounterComponent />, document.getElementById('root'));
